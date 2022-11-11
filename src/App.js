@@ -1,9 +1,10 @@
-import Sidebar from "./component/Sidebar";
+
+import Productlist from "./page/Productlist";
 
 function App() {
   return (
     <>
-    <Sidebar/>
+   <Productlist/>
     </>
 
   );
