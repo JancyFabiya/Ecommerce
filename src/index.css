@@ -17,6 +17,7 @@ font-family: 'Readex Pro', sans-serif;
     bg-white text-gray-700
     w-72 min-h-[10rem]
     shadow-lg rounded-md overflow-hidden
+    border 
   }
   .badge{
     @apply
@@ -36,5 +37,12 @@ font-family: 'Readex Pro', sans-serif;
     bg-green-400
     px-1.5 py-0.5 rounded-md
     text-xs text-white
+  }
+  .button-primary{
+    @apply
+    bg-yellow-500/80 hover:bg-yellow-500/90
+    px-2 py-2 rounded-md
+    text-white font-medium
+    tracking-wider transition
   }
 }

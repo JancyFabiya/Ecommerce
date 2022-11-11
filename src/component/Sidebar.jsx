@@ -29,7 +29,7 @@ const Sidebar = () => {
                     href=""
                     className="flex gap-4 text-gray-60 hover:text-gray-800 transition"
                   >
-                    <BiBorderAll className="m-1" />
+                    {/* <BiBorderAll className="m-1" /> */}
                     Any
                   </a>
                 </li>
@@ -38,7 +38,7 @@ const Sidebar = () => {
                     href=""
                     className="flex gap-4 text-gray-60 hover:text-gray-800 transition"
                   >
-                    <MdOutlineRoomService className="m-1" />
+                    {/* <MdOutlineRoomService className="m-1" /> */}
                     Catering
                   </a>
                 </li>
@@ -47,7 +47,7 @@ const Sidebar = () => {
                     href=""
                     className="flex gap-4 text-gray-60 hover:text-gray-800 transition"
                   >
-                    <MdProductionQuantityLimits className="m-1" />
+                    {/* <MdProductionQuantityLimits className="m-1" /> */}
                     Grandhige
                   </a>
                 </li>
@@ -56,7 +56,7 @@ const Sidebar = () => {
                     href=""
                     className="flex gap-4 text-gray-60 hover:text-gray-800 transition"
                   >
-                    <BiFoodTag className="m-1" />
+                    {/* <BiFoodTag className="m-1" /> */}
                     Prasadam
                   </a>
                 </li>
@@ -65,7 +65,7 @@ const Sidebar = () => {
                     href=""
                     className="flex gap-4 text-gray-60 hover:text-gray-800 transition"
                   >
-                    <FaStarOfDavid className="m-1" />
+                    {/* <FaStarOfDavid className="m-1" /> */}
                     Yantra
                   </a>
                 </li>
@@ -74,7 +74,7 @@ const Sidebar = () => {
                     href=""
                     className="flex gap-4 text-gray-60 hover:text-gray-800 transition"
                   >
-                    <BiCategoryAlt className="m-1" />
+                    {/* <BiCategoryAlt className="m-1" /> */}
                     Sample Category
                   </a>
                 </li>
@@ -90,7 +90,7 @@ const Sidebar = () => {
                     <li>
                       <a
                         href=""
-                        className="block py-2 px-5 rounded bg-cyan-500 bg-opacity-10 hover:bg-opacity-20 text-cyan-500"
+                        className="block py-2 px-5 rounded  bg-opacity-10 hover:bg-opacity-20 text-cyan-500"
                       >
                         Any
                       </a>
