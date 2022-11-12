@@ -6,7 +6,7 @@ export default function NavBar() {
 	const [navbar, setNavbar] = useState(false);
 
 	return (
-		<nav className="w-full bg-white shadow-sm">
+<nav className="sticky top-0 z-50 w-full bg-white shadow-sm">
 			<div className="flex justify-between lg:max-w-6xl mx-auto  md:items-center    ">
 
 				<div className="flex items-center justify-between py-3 md:py-5 ">

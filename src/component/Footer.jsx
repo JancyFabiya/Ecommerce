@@ -4,7 +4,7 @@ const Footer = () => {
     const socialStyle = 'm-3 rounded-full cursor-pointer p-2 text-white';
     return (
 
-        <div className=" p-2 bg-black mobile:flex-col mobile:items-start grid grid-cols-1 ">
+        <div className=" sticky top-0 z-50 p-2 bg-black mobile:flex-col mobile:items-start grid grid-cols-1 ">
             <div className="flex-1 flex justify-center flex-wrap p-2">
                 <h1 className="text-green-800">All Rights Reserved</h1>
             </div>

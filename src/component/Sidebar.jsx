@@ -16,7 +16,7 @@ const Sidebar = () => {
             <GiHamburgerMenu className="w-6 m-auto" />
           </span>
         </button>
-        <div className="z-20 fixed top-0-left-96 lg:left-0 h-screen w-9/12 lg:w-72 bg-white shadow-2xl peer-focus:left-0 peer:transition ease-out delay-150 duration-200">
+        <div className="z-20 fixed top-0-left-92 lg:left-0 h-screen w-9/12 lg:w-72 bg-white shadow-2xl peer-focus:left-0 peer:transition ease-out delay-150 duration-200">
           <nav role="navigation" className="p-6">
             {/* <div className="flex item-center gap-4 pb-4">
               <h2 className="text-3xl textslate-700 font-bold">Department</h2>
@@ -90,7 +90,7 @@ const Sidebar = () => {
                     <li>
                       <a
                         href=""
-                        className="block py-2 px-5 rounded bg-cyan-500 bg-opacity-10 hover:bg-opacity-20 text-cyan-500"
+                        className="block py-2 px-5 rounded  bg-opacity-10 hover:text-gray-500"
                       >
                         Any
                       </a>
