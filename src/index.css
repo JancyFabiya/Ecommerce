@@ -34,7 +34,7 @@ font-family: 'Readex Pro', sans-serif;
   }
   .discount-percent {
     @apply
-    bg-green-400
+    bg-red-400
     px-1.5 py-0.5 rounded-md
     text-xs text-white
   }

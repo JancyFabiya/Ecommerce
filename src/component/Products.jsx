@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaThList } from "react-icons/fa";
-import img from "../img/decor7.jpg";
+import img from "../image/decor7.jpg";
 import { AiOutlineHeart, AiOutlineShoppingCart } from "react-icons/ai";
 
 const Products = () => {

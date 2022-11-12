@@ -90,7 +90,7 @@ const Sidebar = () => {
                     <li>
                       <a
                         href=""
-                        className="block py-2 px-5 rounded  bg-opacity-10 hover:bg-opacity-20 text-cyan-500"
+                        className="block py-2 px-5 rounded bg-cyan-500 bg-opacity-10 hover:bg-opacity-20 text-cyan-500"
                       >
                         Any
                       </a>
