@@ -1,6 +1,7 @@
 import { useState } from "react";
 import logo from '../image/logo.png'
 import { AiOutlineSearch } from "react-icons/ai";
+import {Link} from "react-router-dom"
 
 export default function NavBar() {
 	const [navbar, setNavbar] = useState(false);
@@ -79,7 +80,7 @@ export default function NavBar() {
 								<a href="">Cart</a>
 							</li>
 							<li className="text-gray-600 hover:text-blue-600  font-medium text-[18px]  cursor-pointer">
-								<a href="">Wishlist</a>
+								<Link to="/wishlist" >Wishlist</Link>
 							</li>
 							<li className="text-gray-600 hover:text-blue-600  font-medium text-[18px]   cursor-pointer">
 								<a href="">SignIn</a>

@@ -45,4 +45,9 @@ font-family: 'Readex Pro', sans-serif;
     text-white font-medium
     tracking-wider transition
   }
-}
+  /* .input-box{
+    @apply
+    block w-full border border-gray-300 px-4 py-3 text-gray-600 text-gray-600 text-sm rounded placeholder-gray-400 focus-border-primary focus:ring-0
+
+  } */
+  }

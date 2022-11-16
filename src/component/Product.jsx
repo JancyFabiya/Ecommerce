@@ -1,5 +1,6 @@
 import React from 'react'
 import { AiOutlineShoppingCart } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 import img from '../image/decor7.jpg'
 import Counter from './Counter'
 
@@ -15,7 +16,7 @@ const Product = () => {
         <h1 className='text-[40px] overflow-ellipsis overflow-hidden whitespace-nowrap'>Product Name</h1>
         {/* <div className='w-[50%]'> */}
         <p className='pr-[4rem] text-justify mt-4 overflow-hidden'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-        <p className='text-gray-800 mt-7 text-3xl'>Price: <b>$70</b> <del>$80</del></p>
+        <p className='text-gray-800 mt-7 text-3xl'>Price: <b>₹70</b> <del>₹80</del></p>
         {/* </div> */}
     <div className="mt-7 text-2xl">
         {/* Size */}
@@ -31,10 +32,13 @@ const Product = () => {
         <Counter/>
     </div>
     <div className='m-10'>
-    <button className="button-primary flex gap-1 flex flex-row">
+        <Link to="/cart">
+            <button className="button-primary flex gap-1 flex flex-row">
                       <AiOutlineShoppingCart className="mt-1" />
                       Add to cart
                     </button>
+        </Link>
+    
     </div>
    
     </div>

@@ -9,7 +9,7 @@ const Products = () => {
   const trending = true;
   return (
     <>
-      <div className="col-span-3 mt-14 overflow-hidden mb-14">
+      <div className="col-span-3 mt-14  mb-14">
         {/* <div className="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 "> */}
         {/* Product Grid */}
         {/* <div className="grid grid-cols-4 gap-6"> */}
@@ -76,9 +76,9 @@ const Products = () => {
                     <option>Select</option>
                   </select>
                   <div className="flex items-center">
-                    <p className="text-lg font-semibold my-3">$149</p>
+                    <p className="text-lg font-semibold my-3">₹149</p>
                     <del>
-                      <p className="text-sm text-gray-600 ml-2">$199</p>
+                      <p className="text-sm text-gray-600 ml-2">₹199</p>
                     </del>
                     <span className="discount-percent ml-2">Save 20%</span>
                   </div>
@@ -120,7 +120,8 @@ const Products = () => {
                   <div className="mb-1 ml-14 h-6">
                     <span className=" pl-0.5   bg-black "></span>
                   </div>
-                  {trending ? (
+                  {
+                  trending  ? (
                     <span className="badge rotate-90 mb-12 ml-8">New</span>
                   ) : (
                     <span className="badge rotate-90 mb-12 ml-5">Trending</span>
